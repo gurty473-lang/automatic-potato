@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "motions",
+  "version": "${version}",
+  "name": "Motions Client",
+  "description": "Dark, animated auction client with a full item picker.",
+  "authors": ["Motions"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.motions.MotionsClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
